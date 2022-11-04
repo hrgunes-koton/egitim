@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Interior",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis bibendum ut tristique et egestas quis ipsum suspendisse. Phasellus vestibulum lorem sed risus ultricies.",
+        "icon": "fas fa-pen-nib"
+    },
+    {
+        "title": "Exterior",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas congue quisque egestas diam. Arcu cursus euismod quis viverra nibh cras.",
+        "icon": "fas fa-paint-roller"
+    },
+    {
+        "title": "Design",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur libero id faucibus nisl tincidunt eget nullam. Fermentum leo vel orci porta.",
+        "icon": "fas fa-pencil-alt"
+    },
+    {
+        "title": "Decoration",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim sodales ut eu sem integer vitae. Non tellus orci ac auctor augue mauris augue.",
+        "icon": "fas fa-paint-brush"
+    },
+    {
+        "title": "Planning",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Faucibus ornare suspendisse sed nisi lacus sed viverra. Auctor eu augue ut lectus arcu.",
+        "icon": "fas fa-ruler-combined"
+    },
+    {
+        "title": "Execution",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque habitant morbi tristique senectus et netus et malesuada. Nunc congue nisi vitae suscipit tellus mauris.",
+        "icon": "far fa-building"
+    }
+]
