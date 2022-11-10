@@ -1,8 +1,15 @@
 import { FC, useEffect } from "react";
 import "./AboutUs.css";
+import house from "../images/house.png";
 import services from "./AboutUs.json";
 
-const Service = (props: any) => (
+interface ServiceProps {
+  icon: string;
+  title: string;
+  description: string;
+}
+
+const Service: FC<ServiceProps> = (props: ServiceProps) => (
   <div className="service">
     <div className="service-header">
       <i className={props.icon}></i>
@@ -33,7 +40,7 @@ export const AboutUs: FC = () => {
           />
         ))}
         <div className="about-us-img-wrapper">
-          <img src="images/house.png" alt="" />
+          <img src={house} alt="" />
         </div>
       </div>
     </section>

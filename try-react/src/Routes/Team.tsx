@@ -2,14 +2,14 @@ import { FC, useEffect } from "react";
 import "./Team.css";
 import team from "./Team.json";
 
-type PersonCardProps = {
+interface PersonCardProps {
   name: string;
   picture: string;
   role: string;
   bio: string;
 };
 
-const PersonCard = (person: PersonCardProps) => {
+const PersonCard: FC<PersonCardProps> = (person: PersonCardProps) => {
   return (
     <div className="card" data-tilt>
       <div className="card-img-wrapper">
@@ -38,13 +38,7 @@ export const Team: FC = () => {
       </div>
       <div className="cards-wrapper">
         {team.map((item, index) => (
-          <PersonCard
-            key={index.toString()}
-            name={item.name}
-            role={item.role}
-            picture={item.picture}
-            bio={item.bio}
-          />
+          <PersonCard key={index.toString()} name={item.name} role={item.role} picture={item.picture} bio={item.bio} />
         ))}
       </div>
     </section>
